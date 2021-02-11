@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+a:hover{
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    color: black;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 500;
+}
+.card{
+    width: 40%;
+    margin: 2rem auto;
+    box-shadow: 0px 1px 9px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 12px 10px;
+
+}
+
+/*card image section start*/
+.card__image{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    background: #C4C4C4;
+    border-radius: 12px;
+    padding: 50px 0px;
+}
+.card__image__item{
+    width: 50%;
+    text-align: center;
+}
+.card__image__item img{
+    width: 350px;
+    height: 360px;
+}
+
+/*card image section end*/
+
+/*card body section start*/
+.card__body{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 20px 0px;
+}
+.card__body__item{}
+.card__title{}
+.card__title h3{
+    font-size: 22px;
+    padding: 14px 0px;
+    font-weight: 600;
+    color: #4c4c4c;
+}
+
+.card__description{
+
+}
+.card__description p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #616161;
+    padding-right: 50px;
+}
+
+/*card body section end*/
+
+/*card footer section start*/
+
+.card__footer{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    padding: 27px 0px;
+}
+.card__footer__item{
+    width: 50%;
+}
+.bg-html{
+    background: #F16529;
+    transition: 0.2s all ease-in;
+}
+.bg-html:hover{
+    background: #e54c21;
+}
+.bg-css{
+    background: #2965F1;
+    transition: 0.2s all ease-in;
+}
+.bg-css:hover{
+    background: #264de4;
+}
+.card__button{
+    border-radius: 36px;
+    width: 334px;
+    height: 42px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.card__button:hover{
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.25);
+}
+.card__button__link{
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    color: #F8F3F3;
+}
+
+/*card image section end*/
+
